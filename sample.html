@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="    https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet'>
+    <script src="header.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidenav.css">
+    <script>
+        $('.carousel').carousel();
+        function modal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+
+        }
+
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<div>
+    <div class="container-wrapper">
+        <header class="contanier-header">
+            <div class="navbar navbar-expand">
+
+                <div class="col-sm-2">
+                    <div class="navbar-brand"> Clekha</div>
+                </div>
+
+                <div class="row" id="row" style="width:100%">
+                    <div class="col-sm-2"><a href="#"> Home</a></div>
+                    <div class="col-sm-2"><a href="#"> Contact</a></div>
+                    <div class="col-sm-2"><a href="#"> Login</a></div>
+                    <div class="col-sm-2"><a href="#"> Gallery</a></div>
+                    <div class="col-sm-2"><a href="#"> About us</a></div>
+
+                </div>
+                <div id="select" class="select">
+
+                    <i onclick="toggleSidebar();" class="fa fa-bars fa-lg"></i>
+                    <div id="sidebar">
+                        <ul>
+                            <li><a href="sample.html"></a> Home</li>
+                            <li>About us</li>
+                            <li>Login</li>
+                            <li>Contact</li>
+                            <li>Gallery</li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+
+
+        <div></div>
+
+        <div class="container-fluid">
+            <img class=" banner" src="1.jpg" height="fit-content" width="100%" alt="">
+            <div>
+                <h1 class="greetings" style="color: red; font-family: Great vibes;"> Happy Christmas
+                </h1>
+            </div>
+            <div class="row">
+
+
+                <div class="col-sm-4">
+                    <div class="card" style="height: fit-content; margin-bottom: 5%; position: relative;">
+                        <img height="200vh" src="http://static.navodayatimes.in/multimedia/12_44_043885122breasd1.jpg"
+                            alt="">
+
+                        <div class="card-text">
+
+                            <div class="text" style="margin: 20px; text-align: justify;">Freshly baked breads!!!!!
+                            </div>
+                            <div>
+                                <button class="btn btn-warning" onclick="modal();"
+                                    style=" margin-bottom:10%;margin-right:5%;background-color: red;color: white; float: right;">
+                                    Buy</button>
+                                <p style="float: left; margin-left: 20px;"> Rs.255</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="height: fit-content; margin-bottom: 5%; position: relative;">
+                        <img height="200vh"
+                            src="http://www.yummyntasty.com/wp-content/uploads/2015/03/egg-puffs-1024x683.jpg" alt="">
+
+                        <div class="card-text">
+
+                            <div class="text" style="margin: 20px; text-align: justify;">Puffs that refresh!!!!!
+                            </div>
+                            <div>
+                                <button class="btn btn-warning" onclick="modal();"
+                                    style=" margin-bottom:10%;margin-right:5%;background-color: red;color: white; float: right;">
+                                    Buy</button>
+                                <p style="float: left; margin-left: 20px;"> Rs.12</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="height: fit-content; margin-bottom: 5%; position: relative;">
+                        <img height="200vh"
+                            src="https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/10/54f4a5df2e61b_-_gettyimages_182875449.jpg"
+                            alt="">
+
+                        <div class="card-text">
+
+                            <div class="text" style="margin: 20px; text-align: justify;">Cakes that bring in joy!!!!
+                            </div>
+                            <div>
+                                <button class="btn btn-warning" onclick="modal();"
+                                    style=" margin-bottom:10%;margin-right:5%;background-color: red;color: white; float: right;">
+                                    Buy</button>
+                                <p style="float: left; margin-left: 20px;"> Rs.200</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="container-fluid">
+                <h1 class="greetings" style="font-family: Great vibes; text-align: center; color: red;"> Our Happy
+                    Customers </h1>
+                <div class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="data:image/jpeg;base64,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"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>N.Priyanka</h5>
+                                <p>Had a great time in Clekha .</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEjMqULMm6dtm9mWHdwqcX8scC63UYvMJStmI2_i_MUD_e-WS&s"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Rakesh</h5>
+                                <p>The best bread Ive seen in my life</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV5RYJeK5WBI3ZiM-ChkIjrix7-GfbFCv5I3IyPWeM6Ej629_eJA&s"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sai</h5>
+                                <p>bhai ab hogaya please go back.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: red; color: white;">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thank you for writing to us!!!</h4>
+                </div>
+                <div class="modal-body">
+                    <p>We look forward to continue our good relationship with you.<br>
+                        Hope you have a nice day.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="closeModal();" class="btn btn-default"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-footer">
+    <div class="navbar navbar-expand-footer">
+        <div class="col-sm-6" style="margin-top: 20px;">
+            <p>Visit us at Clekha.in</p>
+        </div>
+        <div id="address" class="col-sm-6">
+            <strong>Address:</strong><br>
+            <p id="addr"> 15-42 NBR complex
+                Hyderabad 500079</p>
+        </div>
+        <div class="col-sm-6">
+            <a href="#" style="width: fit-content;" class="fa fa-facebook"></a>
+            <a href="#" style="width: fit-content;" class="fa fa-twitter" id="icons"></a>
+            <a href="#" style="width: fit-content;" class="fa fa-instagram" id="icons"></a>
+            <a href="#" style="width: fit-content;" class="fa fa-snapchat" id="icons"></a>
+
+            <a href="#" style="width: fit-content;" class="fa fa-google" id="icons"></a>
+        </div>
+        <div class="col-sm-6" style="margin-top: 10px;">
+            <p id="bl"> Clekha Bakery &copy 2019</p>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

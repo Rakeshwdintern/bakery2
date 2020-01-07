@@ -1,0 +1,76 @@
+@media screen and (min-width:320px) and (max-width:479px){
+.banner{
+    vertical-align: middle;
+    border-style: none;
+    width: 100vw;
+    margin-left: -15px;
+}
+.card{
+       margin-bottom: 30px;
+    height: fit-content;
+    box-shadow: 3px 3px 2px 1px #0000000d;
+}
+.greetings{
+    padding: 60px 0px 30px;
+    text-align: center;
+}
+.container-footer{
+    margin-top: 200px;
+}
+.fade:not(.show) {
+    opacity: 100%;
+}
+#myModal{
+    margin-top: 100px;
+
+}
+.modal-header{
+    background-color: red;
+    color: white;
+    margin-top: 40px;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+}
+}
+@media screen and (min-width:480px) and (max-width:1580px){
+    .fade:not(.show) {
+        opacity: 100%;
+    }
+    #myModal{
+        margin-top: 100px;
+    
+    }
+
+    
+.card{
+    margin-bottom: 30px;
+ height: fit-content;
+ width: 20rem;
+ box-shadow: 3px 3px 2px 1px #0000000d;
+}
+.card-header{
+ background-color: red;
+ color: white;
+ font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 3%;
+    font-size: 6rem;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.banner{
+    vertical-align: middle;
+    border-style: none;
+    width: 98.8vw;
+    height: 90vh;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+}

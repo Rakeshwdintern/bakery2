@@ -1,0 +1,52 @@
+
+@media screen and (min-width:320px) and (max-width:479px){
+.navbar-expand-footer{
+    margin-top: 10px;
+    background-color: red;
+}
+.fa{
+    color: white;
+    
+}
+.container-footer .col-sm-6{
+    font-family:  sans-serif;
+    color: white;
+}
+.container-footer a{
+    margin-right:20px;
+}
+}
+@media screen and (min-width:481px) and (max-width:1490px){
+    .navbar-expand-footer{
+        margin-top: 10px;
+        background-color: red;
+    }
+    .fa{
+        color: white;
+        
+    }
+    .navbar-expand-footer a{
+        padding-right: 20px;
+    }
+
+    #addr{
+        float:right;
+    }
+    .col-sm-6 strong{
+        float: right;
+        margin-right:220px;
+    }
+    #address{
+        margin-top:20px;
+    }
+    #bl{
+        float: right;
+    }
+    
+    .container-footer .col-sm-6{
+        font-family:  sans-serif;
+        color: white;
+    }
+
+
+}
